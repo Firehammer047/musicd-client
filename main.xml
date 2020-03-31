@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:gravity="center"
+    >
+<TextView
+	android:id="@+id/song_info"
+	android:layout_width="fill_parent"
+	android:layout_height="50dp"
+	android:text=""
+	android:gravity="center"
+	/>
+
+<View
+	android:layout_width="fill_parent"
+	android:layout_height="50dp"
+	/>
+
+<Button
+	android:layout_width="100dp"
+	android:layout_height="wrap_content"
+	android:text="NEXT"
+	android:onClick="next"
+	/>
+
+<View
+	android:layout_width="fill_parent"
+	android:layout_height="50dp"
+	/>
+
+<Button
+	android:layout_width="100dp"
+	android:layout_height="wrap_content"
+	android:text="PAUSE"
+	android:onClick="pause"
+	/>
+
+<View
+	android:layout_width="fill_parent"
+	android:layout_height="50dp"
+	/>
+
+<Button
+	android:layout_width="100dp"
+	android:layout_height="wrap_content"
+	android:text="BACK"
+	android:onClick="back"
+	/>
+<View
+	android:layout_width="fill_parent"
+	android:layout_height="50dp"
+	/>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+	android:gravity="center"
+    >
+<Button
+	android:layout_width="50dp"
+	android:layout_height="50dp"
+	android:text="Vol -"
+	android:onClick="volumeDown"
+	/>
+<View
+	android:layout_width="50dp"
+	android:layout_height="50dp"
+	/>
+<Button
+	android:layout_width="50dp"
+	android:layout_height="50dp"
+	android:text="Vol +"
+	android:onClick="volumeUp"
+	/>
+</LinearLayout>
+
+<TextView
+	android:id="@+id/text_info"
+	android:layout_width="fill_parent"
+	android:layout_height="100dp"
+	android:text=""
+	android:gravity="center"
+	/>
+
+
+</LinearLayout>
+
