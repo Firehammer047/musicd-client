@@ -1,2 +1,2 @@
 # musicd-client
-Android app for controlling music on your computer
+Android client for controlling music on your computer
